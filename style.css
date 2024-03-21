@@ -76,6 +76,12 @@ h1 {
     outline: none;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
 .btn:hover {
     color: #fff;
 }
@@ -125,4 +131,15 @@ h1 {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: both; */
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #fff;
+    margin-bottom: 1em;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
 }
