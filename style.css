@@ -143,3 +143,17 @@ p {
     padding-right: 80px;
     padding-top: 20px;
 }
+
+@keyframes slideInBottom {
+    from {
+        transform: translateY(1000%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.slideInBottom {
+    animation: slideInBottom 1s ease-in 0s 1 normal both
+}
